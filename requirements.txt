@@ -1,0 +1,5 @@
+streamlit
+langgraph
+langchain_groq
+langchain_community
+langchain-tavily
