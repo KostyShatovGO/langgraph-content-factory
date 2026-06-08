@@ -26,7 +26,7 @@ def init_llms():
     # Сильный Автор для красивого слога (Llama 3.3 70B)
     writer_llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.3)
     # Супер-экономный Редактор для экономии суточных лимитов токенов (Llama 3 8B)
-    editor_llm = ChatGroq(model="llama3-8b-8192", temperature=0.1)
+    editor_llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.1)
     return writer_llm, editor_llm
 
 writer_llm, editor_llm = init_llms()
